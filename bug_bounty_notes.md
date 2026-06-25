@@ -815,34 +815,9 @@ CVSS Score: (Optional but appreciated)
 
 ---
 
-## 10. MOBILE APP TESTING (BONUS)
-
-**Tools:**
-
-| Tool | Use |
-|------|-----|
-| **MobSF** | Automated mobile app analysis (APK/IPA) |
-| **Frida** | Dynamic instrumentation, hook functions at runtime |
-| **Objection** | Frida-based, bypass SSL pinning, root detection |
-| **apktool** | Decompile APK files |
-| **jadx** | Java decompiler for Android APKs |
-| **Drozer** | Android security assessment |
-
-**Quick APK Analysis:**
-```bash
-# Decompile APK
-apktool d app.apk -o output/
-
-# Decompile to Java
-jadx -d output/ app.apk
-
-# Look for secrets in source code
-grep -r "api_key\|secret\|password\|http://" output/
-```
-
 ---
 
-## 11. RESOURCES FOR LEARNING
+## 10. RESOURCES FOR LEARNING
 
 - **PortSwigger Web Security Academy** — portswigger.net/web-security (free, best labs)
 - **HackTheBox** — hackthebox.com (practice in real environments)
