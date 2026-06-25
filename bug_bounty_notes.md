@@ -1,5 +1,29 @@
-# Bug Bounty Hunting — Complete Notes
+# Bug Bounty Hunting 
+A bug bounty is a program in which an organization rewards people for finding and responsibly reporting security vulnerabilities or software bugs in its systems, applications, or websites.
 
+## The idea is simple:
+
+- A company defines which systems can be tested and what types of vulnerabilities are eligible.
+- Security researchers (sometimes called ethical hackers) look for weaknesses.
+- If they discover a valid vulnerability, they report it privately to the company.
+- The company verifies the issue, fixes it, and may pay a reward (the "bounty").
+
+## WHERE TO HUNT (PLATFORMS)
+
+| Platform | URL | Notes |
+|----------|-----|-------|
+| **HackerOne** | hackerone.com | Largest, most programs |
+| **Bugcrowd** | bugcrowd.com | Good for beginners |
+| **Intigriti** | intigriti.com | European focus, quality programs |
+| **Synack** | synack.com | Invite-only, pays well |
+| **YesWeHack** | yeswehack.com | European programs |
+| **Open Bug Bounty** | openbugbounty.org | XSS focused, free programs |
+
+### Tips for Choosing Programs
+- **New programs** = less competition, uncovered bugs
+- **Scope size** — wider scope = more attack surface
+- **Payout table** — check what they pay for what severity
+- **Response time** — check program stats on HackerOne
 ---
 
 ### 1. METHODOLOGY OVERVIEW
@@ -791,26 +815,7 @@ CVSS Score: (Optional but appreciated)
 
 ---
 
-## 10. WHERE TO HUNT (PLATFORMS)
-
-| Platform | URL | Notes |
-|----------|-----|-------|
-| **HackerOne** | hackerone.com | Largest, most programs |
-| **Bugcrowd** | bugcrowd.com | Good for beginners |
-| **Intigriti** | intigriti.com | European focus, quality programs |
-| **Synack** | synack.com | Invite-only, pays well |
-| **YesWeHack** | yeswehack.com | European programs |
-| **Open Bug Bounty** | openbugbounty.org | XSS focused, free programs |
-
-### Tips for Choosing Programs
-- **New programs** = less competition, uncovered bugs
-- **Scope size** — wider scope = more attack surface
-- **Payout table** — check what they pay for what severity
-- **Response time** — check program stats on HackerOne
-
----
-
-## 11. MOBILE APP TESTING (BONUS)
+## 10. MOBILE APP TESTING (BONUS)
 
 **Tools:**
 
@@ -837,7 +842,7 @@ grep -r "api_key\|secret\|password\|http://" output/
 
 ---
 
-## 12. RESOURCES FOR LEARNING
+## 11. RESOURCES FOR LEARNING
 
 - **PortSwigger Web Security Academy** — portswigger.net/web-security (free, best labs)
 - **HackTheBox** — hackthebox.com (practice in real environments)
@@ -849,4 +854,4 @@ grep -r "api_key\|secret\|password\|http://" output/
 
 ---
 
-*Notes last updated: June 2026*
+
